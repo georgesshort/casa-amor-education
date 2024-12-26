@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casa Amor Education</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Casa Amor Education</h1>
+    <nav>
+      <a href="#students">Students</a>
+      <a href="#teachers">Teachers</a>
+      <a href="#games">Games</a>
+    </nav>
+  </header>
+
+  <section id="students">
+    <h2>Student Resources</h2>
+    <p>Download materials and continue learning.</p>
+    <ul>
+      <li><a href="files/lesson1.pdf" download>Lesson 1</a></li>
+      <li><a href="files/lesson2.pdf" download>Lesson 2</a></li>
+    </ul>
+  </section>
+
+  <section id="teachers">
+    <h2>Teacher Resources</h2>
+    <p>Upload and view shared lesson materials.</p>
+    <button onclick="uploadLesson()">Upload Lesson</button>
+    <div id="teacher-materials"></div>
+  </section>
+
+  <section id="games">
+    <h2>Interactive Games</h2>
+    <p>Practice your English with fun games!</p>
+    <button onclick="playFlashcards()">Play Flashcards</button>
+    <button onclick="playBingo()">Play Bingo</button>
+  </section>
+
+  <footer>
+    <p>© 2024 Casa Amor. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
